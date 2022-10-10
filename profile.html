@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | FrenchKleider.com</title>
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    :root {
+        --navbarheight: 59px;
+    }
+
+    #navbar {
+        display: flex;
+        position: relative;
+    }
+
+    #logo {
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+    #navbar li {
+        display: inline-block;
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    #navbar ul li a {
+        padding: 2px 10px;
+        /* margin: 10px; */
+        text-decoration: none;
+        /* background-color: black;
+        border-radius: 30px; */
+    }
+
+    #navbar ul li a:hover {
+        /* padding: 10px; */
+        /* margin: 10px; */
+        text-decoration: none;
+        background-color: white;
+        border-radius: 30px;
+    }
+
+    #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 200px;
+        justify-content: center;
+        align-items: center;
+        background: url("images/bg.jpg") no-repeat center center/cover;
+        height: 505px;
+        opacity: 0.8;
+        z-index: -1;
+    }
+    #search{
+        border-radius: 15px;
+        padding: 4px;
+        padding-left: 10px;
+    }
+    #search:hover{
+        background-color: rgb(223, 223, 209);
+    }
+    .search{
+        padding-top: 27px;
+        padding-left: 470px;
+    }
+    #profile{
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+    #home {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 200px;
+        justify-content: center;
+        align-items: center;
+        background: url("images/profile_bg.png") no-repeat center center/cover;
+        height: 505px;
+        opacity: 0.75;
+        z-index: -1;
+    }
+    
+    #img1{
+        
+        padding-top: 0%;
+    }
+</style>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <a href="/index.html"><img src="./images/FK LOGO.png" alt="French Kleider Logo" width="75" height="75"></a>
+        </div>
+        <ul>
+            <li class="item"><a href="/mens.html">Mens</a></li>
+            <li class="item"><a href="/teens.html">Teens</a></li>
+            <li class="item"><a href="/kids.html">Kids</a></li>
+            <li class="item"><a href="/index.html">Home</a></li>
+            <li class="item"><a href="#">Contact US</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search in Category...">
+        </div>
+        <div id="profile">
+            <img src="./images/profile_icon.png" alt="Profile" width="50" height="50">
+        </div>
+    </nav>
+    <section id="home">
+        <h1>ABOUT US</h1>
+        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, voluptatem!. </h4>
+        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, voluptatem!. </h4>
+        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, voluptatem!. </h4>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas commodi provident libero culpa! Sunt, exercitationem fuga. Saepe facere eligendi ipsam voluptate ad ratione ea odit, iusto, autem consectetur deleniti quasi? Rem libero ullam inventore dolores incidunt nobis accusantium sapiente quidem amet expedita illo iusto asperiores rerum, distinctio adipisci? Aliquid totam fuga reiciendis accusantium repellat, animi esse, voluptate delectus error tempore quas doloremque. Eveniet optio magni quas sequi ipsa distinctio voluptatem ut corrupti totam. Nulla quis, vero ratione maxime ipsam quasi voluptatum tempora impedit veritatis voluptate architecto nemo aspernatur totam hic velit magni minima praesentium, temporibus qui laborum? Ipsam, enim amet?</h4>
+        <h3>Follow Us on:</h3>
+        <nav id="ecom_logo">
+            <a href="https://www.myntra.com/french-kleider" target="_blank"><img src="/images/myntra-logo.png" alt="myntra" height="30" width="80"></a>
+
+            <a  href="https://www.flipkart.com/search?q=french+kleider&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&as-pos=1&as-type=HISTORY" target="_blank"><img id="img1" src="/images/Flipkart-Logo.wine.png" alt="flipkart" height="30" width="80"></a>
+    
+            <a  href="https://www.amazon.in/s?k=french+kleider&sprefix=french+kl%2Caps%2C406&ref=nb_sb_ss_pltr-ranker-retrain-acsession-opsacceptance_2_9" target="_blank"><img src="/images/Amazon logo.png" alt="amazon" height="25" width="75"></a>
+
+            <a  href="https://www.meesho.com/search?q=french%20kleider&searchType=manual&searchIdentifier=text_search" target="_blank"><img src="/images/meesho logo.png" alt="meesho" height="30" width="50"></a>
+            
+        </nav> 
+
+    </section>
+</body>
+</html>
